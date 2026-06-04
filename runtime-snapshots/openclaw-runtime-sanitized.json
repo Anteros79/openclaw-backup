@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-06-04T08:23:06Z",
+  "host": {
+    "hostname": "giles.local",
+    "platform": "Darwin",
+    "release": "25.6.0",
+    "arch": "arm64"
+  },
+  "openclaw": {
+    "version": "OpenClaw 2026.5.26 (10ad3aa)",
+    "runtimeRoot": "/Users/joe/.openclaw"
+  },
+  "paths": {
+    "workspace": "/Users/joe/.openclaw/workspace",
+    "workspaceMain": "/Users/joe/.openclaw/workspace-main",
+    "workspaceClaude": "/Users/joe/.openclaw/workspace-claude",
+    "serviceEnv": "/Users/joe/.openclaw/service-env",
+    "settings": "/Users/joe/.openclaw/settings",
+    "identity": "/Users/joe/.openclaw/identity",
+    "memory": "/Users/joe/.openclaw/memory",
+    "agents": "/Users/joe/.openclaw/agents",
+    "skills": "/Users/joe/.openclaw/workspace-main/skills",
+    "wiki": "/Users/joe/.openclaw/wiki/main"
+  },
+  "sanitizedSummary": {
+    "agentDirectoryCount": 25,
+    "workspaceGitHead": "unknown",
+    "workspaceMainGitHead": "9330739",
+    "secretValuesIncluded": false,
+    "notes": [
+      "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
+      "Encrypted disaster-recovery archives are produced separately outside the git repo.",
+      "Heavy transient caches and generated runtime scratch space are excluded from the encrypted archive."
+    ]
+  },
+  "encryptedArchivePlan": {
+    "include": [
+      "/Users/joe/.openclaw/openclaw.json",
+      "/Users/joe/.openclaw/service-env",
+      "/Users/joe/.openclaw/settings",
+      "/Users/joe/.openclaw/identity",
+      "/Users/joe/.openclaw/memory",
+      "/Users/joe/.openclaw/workspace",
+      "/Users/joe/.openclaw/workspace-main",
+      "/Users/joe/.openclaw/workspace-claude",
+      "/Users/joe/.openclaw/agents",
+      "/Users/joe/.openclaw/wiki",
+      "/Users/joe/.brv-cli/bin/openclaw"
+    ],
+    "exclude": [
+      "/Users/joe/.openclaw/tmp",
+      "/Users/joe/.openclaw/lcm-files",
+      "/Users/joe/.openclaw/canvas",
+      "/Users/joe/.openclaw/media",
+      "/Users/joe/.openclaw/extensions-disabled-20260506",
+      "**/.DS_Store",
+      "**/._*",
+      "**/node_modules"
+    ]
+  }
+}
