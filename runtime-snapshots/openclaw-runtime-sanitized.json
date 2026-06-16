@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T08:17:51Z",
+  "generatedAt": "2026-06-16T08:18:08Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -20,19 +20,21 @@
     "cron": "/Users/joe/.openclaw/cron",
     "nodes": "/Users/joe/.openclaw/nodes",
     "state": "/Users/joe/.openclaw/state",
+    "settings": "/Users/joe/.openclaw/settings",
     "plugins": "/Users/joe/.openclaw/plugins",
     "pluginSkills": "/Users/joe/.openclaw/plugin-skills",
     "workspaceAttestations": "/Users/joe/.openclaw/workspace-attestations"
   },
   "sanitizedSummary": {
-    "topLevelEntryCount": 31,
+    "topLevelEntryCount": 33,
     "agentDirectoryCount": 12,
     "workspaceGitHead": "unknown",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
       "Encrypted disaster-recovery archives are produced separately outside the git repo.",
-      "The current runtime layout no longer uses workspace-main, workspace-claude, settings, or wiki paths from the previous snapshot.",
+      "The current runtime layout no longer uses workspace-main, workspace-claude, or wiki paths from the previous snapshot.",
+      "The live runtime now includes ~/.openclaw/settings, so disaster-recovery archives include that directory when present.",
       "Heavy transient caches and generated runtime scratch space are excluded from the encrypted archive."
     ]
   },
@@ -50,6 +52,7 @@
       "/Users/joe/.openclaw/cron",
       "/Users/joe/.openclaw/nodes",
       "/Users/joe/.openclaw/state",
+      "/Users/joe/.openclaw/settings",
       "/Users/joe/.openclaw/plugins",
       "/Users/joe/.openclaw/plugin-skills",
       "/Users/joe/.openclaw/workspace-attestations",
