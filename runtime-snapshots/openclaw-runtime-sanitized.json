@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T08:18:08Z",
+  "generatedAt": "2026-06-17T08:18:07Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -21,9 +21,12 @@
     "nodes": "/Users/joe/.openclaw/nodes",
     "state": "/Users/joe/.openclaw/state",
     "settings": "/Users/joe/.openclaw/settings",
+    "skillWorkshop": "/Users/joe/.openclaw/skill-workshop",
     "plugins": "/Users/joe/.openclaw/plugins",
     "pluginSkills": "/Users/joe/.openclaw/plugin-skills",
-    "workspaceAttestations": "/Users/joe/.openclaw/workspace-attestations"
+    "workspaceAttestations": "/Users/joe/.openclaw/workspace-attestations",
+    "runtimeBin": "/Users/joe/.openclaw/bin",
+    "media": "/Users/joe/.openclaw/media"
   },
   "sanitizedSummary": {
     "topLevelEntryCount": 33,
@@ -33,9 +36,9 @@
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
       "Encrypted disaster-recovery archives are produced separately outside the git repo.",
-      "The current runtime layout no longer uses workspace-main, workspace-claude, or wiki paths from the previous snapshot.",
-      "The live runtime now includes ~/.openclaw/settings, so disaster-recovery archives include that directory when present.",
-      "Heavy transient caches and generated runtime scratch space are excluded from the encrypted archive."
+      "The current runtime layout no longer uses workspace-main, workspace-claude, wiki, or ~/.brv-cli paths from earlier recovery drafts.",
+      "The live runtime now includes ~/.openclaw/settings, ~/.openclaw/skill-workshop, ~/.openclaw/bin, and ~/.openclaw/media.",
+      "The disaster-recovery archive keeps recovery-critical runtime state and the local openclaw binary, while excluding approval sockets, media payloads, logs, completions, and heavy transient caches."
     ]
   },
   "encryptedArchivePlan": {
@@ -53,10 +56,11 @@
       "/Users/joe/.openclaw/nodes",
       "/Users/joe/.openclaw/state",
       "/Users/joe/.openclaw/settings",
+      "/Users/joe/.openclaw/skill-workshop",
       "/Users/joe/.openclaw/plugins",
       "/Users/joe/.openclaw/plugin-skills",
       "/Users/joe/.openclaw/workspace-attestations",
-      "/Users/joe/.brv-cli/bin/openclaw"
+      "/Users/joe/.openclaw/bin/openclaw"
     ],
     "exclude": [
       "/Users/joe/.openclaw/tmp",
@@ -64,6 +68,9 @@
       "/Users/joe/.openclaw/canvas",
       "/Users/joe/.openclaw/completions",
       "/Users/joe/.openclaw/voice-runtime",
+      "/Users/joe/.openclaw/media",
+      "/Users/joe/.openclaw/exec-approvals.sock",
+      "/Users/joe/.openclaw/exec-approvals.json",
       "**/.DS_Store",
       "**/._*",
       "**/node_modules"
