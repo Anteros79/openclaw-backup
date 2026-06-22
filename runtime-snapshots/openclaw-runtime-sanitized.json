@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T08:17:39Z",
+  "generatedAt": "2026-06-22T08:17:37Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -7,7 +7,7 @@
     "arch": "arm64"
   },
   "openclaw": {
-    "version": "OpenClaw 2026.6.8 (844f405)",
+    "version": "OpenClaw 2026.6.9 (c645ec4)",
     "runtimeRoot": "/Users/joe/.openclaw"
   },
   "paths": {
@@ -29,9 +29,9 @@
     "media": "/Users/joe/.openclaw/media"
   },
   "sanitizedSummary": {
-    "topLevelEntryCount": 45,
+    "topLevelEntryCount": 48,
     "agentDirectoryCount": 12,
-    "workspaceGitHead": "f73ed75",
+    "workspaceGitHead": "e264280",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
@@ -69,6 +69,7 @@
       "/Users/joe/.openclaw/completions",
       "/Users/joe/.openclaw/voice-runtime",
       "/Users/joe/.openclaw/media",
+      "/Users/joe/.openclaw/workspace/recovery-backups",
       "/Users/joe/.openclaw/exec-approvals.sock",
       "/Users/joe/.openclaw/exec-approvals.json",
       "**/.DS_Store",
