@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T08:19:55Z",
+  "generatedAt": "2026-06-24T08:17:38Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -31,13 +31,13 @@
   "sanitizedSummary": {
     "topLevelEntryCount": 48,
     "agentDirectoryCount": 12,
-    "workspaceGitHead": "1f0c496",
+    "workspaceGitHead": "12a7b8b",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
       "Encrypted disaster-recovery archives are produced separately outside the git repo.",
       "The current runtime layout no longer uses workspace-main, workspace-claude, wiki, or ~/.brv-cli paths from earlier recovery drafts.",
-      "The live runtime now includes ~/.openclaw/settings, ~/.openclaw/skill-workshop, ~/.openclaw/bin, and ~/.openclaw/media.",
+      "The live runtime includes ~/.openclaw/settings, ~/.openclaw/skill-workshop, ~/.openclaw/bin, ~/.openclaw/plugins, ~/.openclaw/plugin-skills, and ~/.openclaw/media.",
       "The disaster-recovery archive keeps recovery-critical runtime state and the local openclaw binary, while excluding approval sockets, media payloads, logs, completions, and heavy transient caches."
     ]
   },
