@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T08:17:38Z",
+  "generatedAt": "2026-06-25T08:19:02Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -7,7 +7,7 @@
     "arch": "arm64"
   },
   "openclaw": {
-    "version": "OpenClaw 2026.6.9 (c645ec4)",
+    "version": "OpenClaw 2026.6.10 (aa69b12)",
     "runtimeRoot": "/Users/joe/.openclaw"
   },
   "paths": {
@@ -29,7 +29,7 @@
     "media": "/Users/joe/.openclaw/media"
   },
   "sanitizedSummary": {
-    "topLevelEntryCount": 48,
+    "topLevelEntryCount": 47,
     "agentDirectoryCount": 12,
     "workspaceGitHead": "12a7b8b",
     "secretValuesIncluded": false,
