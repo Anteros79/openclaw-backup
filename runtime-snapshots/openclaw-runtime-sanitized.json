@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T08:16:41Z",
+  "generatedAt": "2026-06-28T08:17:03Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -7,7 +7,7 @@
     "arch": "arm64"
   },
   "openclaw": {
-    "version": "OpenClaw 2026.6.6 (8c802aa)",
+    "version": "OpenClaw 2026.6.10 (aa69b12)",
     "runtimeRoot": "/Users/joe/.openclaw"
   },
   "paths": {
