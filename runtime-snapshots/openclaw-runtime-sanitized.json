@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T08:17:03Z",
+  "generatedAt": "2026-06-30T08:18:35Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -38,7 +38,8 @@
       "Encrypted disaster-recovery archives are produced separately outside the git repo.",
       "The current runtime layout no longer uses workspace-main, workspace-claude, wiki, or ~/.brv-cli paths from earlier recovery drafts.",
       "The live runtime includes ~/.openclaw/settings, ~/.openclaw/skill-workshop, ~/.openclaw/bin, ~/.openclaw/plugins, ~/.openclaw/plugin-skills, and ~/.openclaw/media.",
-      "The disaster-recovery archive keeps recovery-critical runtime state and the local openclaw binary, while excluding approval sockets, media payloads, logs, completions, and heavy transient caches."
+      "The disaster-recovery archive keeps recovery-critical runtime state and the local openclaw binary, while excluding approval sockets, media payloads, logs, completions, and heavy transient caches.",
+      "OpenSSL encrypted archives use a per-archive passphrase file stored outside the git repository."
     ]
   },
   "encryptedArchivePlan": {
@@ -65,6 +66,9 @@
     "exclude": [
       "/Users/joe/.openclaw/tmp",
       "/Users/joe/.openclaw/logs",
+      "/Users/joe/.openclaw/cache",
+      "/Users/joe/.openclaw/locks",
+      "/Users/joe/.openclaw/npm",
       "/Users/joe/.openclaw/canvas",
       "/Users/joe/.openclaw/completions",
       "/Users/joe/.openclaw/voice-runtime",
