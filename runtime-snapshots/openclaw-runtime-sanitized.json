@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T08:17:56Z",
+  "generatedAt": "2026-07-20T08:18:21Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -29,9 +29,9 @@
     "media": "/Users/joe/.openclaw/media"
   },
   "sanitizedSummary": {
-    "topLevelEntryCount": 62,
+    "topLevelEntryCount": 63,
     "agentDirectoryCount": 12,
-    "workspaceGitHead": "fab9310",
+    "workspaceGitHead": "8c02d74",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
