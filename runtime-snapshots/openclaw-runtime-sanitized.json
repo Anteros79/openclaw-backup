@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T08:18:16Z",
+  "generatedAt": "2026-08-02T08:17:22Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -31,7 +31,7 @@
   "sanitizedSummary": {
     "topLevelEntryCount": 66,
     "agentDirectoryCount": 12,
-    "workspaceGitHead": "d830ce5",
+    "workspaceGitHead": "4484de6",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
