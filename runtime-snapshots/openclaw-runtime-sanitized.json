@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:17:53Z",
+  "generatedAt": "2026-08-25T08:17:07Z",
   "host": {
     "hostname": "giles.local",
     "platform": "Darwin",
@@ -7,7 +7,7 @@
     "arch": "arm64"
   },
   "openclaw": {
-    "version": "OpenClaw 2026.7.1-2 (0790d9f)",
+    "version": "OpenClaw 2026.6.6 (8c802aa)",
     "runtimeRoot": "/Users/joe/.openclaw"
   },
   "paths": {
@@ -31,7 +31,7 @@
   "sanitizedSummary": {
     "topLevelEntryCount": 74,
     "agentDirectoryCount": 13,
-    "workspaceGitHead": "cbad0db",
+    "workspaceGitHead": "5e4a11a",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
