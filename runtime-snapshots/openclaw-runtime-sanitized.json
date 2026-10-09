@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T08:16:33Z",
+  "generatedAt": "2026-10-09T08:17:47Z",
   "host": {
     "hostname": "redacted",
     "platform": "Darwin",
@@ -31,7 +31,7 @@
   "sanitizedSummary": {
     "topLevelEntryCount": 104,
     "agentDirectoryCount": 17,
-    "workspaceGitHead": "d90e48c",
+    "workspaceGitHead": "bf24899",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
