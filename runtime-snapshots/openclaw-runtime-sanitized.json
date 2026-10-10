@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:17:47Z",
+  "generatedAt": "2026-10-10T08:19:21Z",
   "host": {
     "hostname": "redacted",
     "platform": "Darwin",
@@ -7,7 +7,7 @@
     "arch": "arm64"
   },
   "openclaw": {
-    "version": "OpenClaw 2026.9.8 (fc23bc8)",
+    "version": "OpenClaw 2026.9.9 (bcfc888)",
     "runtimeRoot": "~/.openclaw"
   },
   "paths": {
@@ -29,9 +29,9 @@
     "media": "~/.openclaw/media"
   },
   "sanitizedSummary": {
-    "topLevelEntryCount": 104,
+    "topLevelEntryCount": 103,
     "agentDirectoryCount": 17,
-    "workspaceGitHead": "bf24899",
+    "workspaceGitHead": "0206259",
     "secretValuesIncluded": false,
     "notes": [
       "This snapshot is intentionally sanitized and does not include token, key, or passphrase values.",
